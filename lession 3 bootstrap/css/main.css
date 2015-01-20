@@ -1,0 +1,40 @@
+body {
+    color: #666666;
+    font-family: Verdana, sans-serif;
+
+}
+
+/*.container-wraper {*/
+    /*width: 1024px;*/
+/*}*/
+
+h2 {
+    color: #F07C17;
+    padding-bottom: 20px;
+}
+
+.main-features {
+    border: 1px solid #CCCCCC;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.image-margin {
+    margin-top: 10px;
+}
+
+.main-features li {
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 25px;
+}
+
+
+.mockup-overlay {
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: .4;
+}
