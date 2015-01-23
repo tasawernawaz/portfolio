@@ -4,19 +4,30 @@ body {
 
 }
 
-/*.container-wraper {*/
-    /*width: 1024px;*/
-/*}*/
+.container-wraper {
+    width: 1024px;
+    height: 885px;
+    margin-top: 26px;
+}
 
 h2 {
     color: #F07C17;
+    margin-left: 20px;
     padding-bottom: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 50px;
+    padding-left: 50px;
 }
 
 .main-features {
     border: 1px solid #CCCCCC;
     margin-top: 20px;
-    padding: 25px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .image-margin {
@@ -24,13 +35,22 @@ h2 {
 }
 
 .main-features li {
-    padding-bottom: 5px;
+    padding-bottom: 12px;
+
 }
 
 p {
-    line-height: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 10px 0 10px 0;
+    font-weight: normal;
+    line-height: 32px;
 }
 
+.main-features ul {
+    margin-top: 20px;
+    padding-left: 60px;
+}
 
 .mockup-overlay {
     top: 0;
